@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "augmented-workbenches",
+  "version": "${version}",
+  "name": "Augmented Workbenches",
+  "description": "Get back to work!",
+  "authors": [
+    "SadieWopen",
+    "CrimsonFluff"
+  ],
+  "contact": {},
+  "license": "GPLv3",
+  "icon": "assets/augmented-workbenches/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "crimsonfluff.augmentedworkbenches.AugmentedWorkbenches"
+    ]
+  },
+  "mixins": [
+    "augmented-workbenches.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  },
+  "accessWidener": "augmented-workbenches.accesswidener"
+}
