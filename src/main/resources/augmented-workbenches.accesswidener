@@ -1,4 +1,5 @@
 accessWidener v1 named
 accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity cookTime I
 accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity burnTime I
+accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity fuelTime I
 accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity cookTimeTotal I
