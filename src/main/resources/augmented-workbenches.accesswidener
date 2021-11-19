@@ -3,3 +3,5 @@ accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity cookTime 
 accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity burnTime I
 accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity fuelTime I
 accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity cookTimeTotal I
+
+accessible method net/minecraft/block/ComposterBlock addToComposter (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/WorldAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/block/BlockState;
